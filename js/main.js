@@ -55,18 +55,18 @@ $(window).load(function() {
     if ($(window).width() > 1025) {
         $('#sidebar').affix({
             offset: {
-                top: $('.product-intro').outerHeight() - 160
-                //bottom: $( '#page' ).height()+($('#product-block').outerHeight())
+                top: $('.portfolio-intro').outerHeight() - 160
+                //bottom: $( '#page' ).height()+($('#portfolio-block').outerHeight())
             }
         });
     }
 });
 
 $(window).scroll(function(){
-        if ($(this).scrollTop() > ($('.product-images').innerHeight())+40) {
-            $('.affix').css({'top':(($('.product-images').outerHeight() - ($('#sidebar').outerHeight()) - 42))+'px','position':'relative'});
+        if ($(this).scrollTop() > ($('.portfolio-images').innerHeight())+40) {
+            $('.affix').css({'top':(($('.portfolio-images').outerHeight() - ($('#sidebar').outerHeight()) - 42))+'px','position':'relative'});
         }
-        else if ($(this).scrollTop() < $('.product-intro').innerHeight() + 50) {
+        else if ($(this).scrollTop() < $('.portfolio-intro').innerHeight() + 50) {
             $('.affix').css({'top': '0', 'position': 'relative'});
         }
         else {

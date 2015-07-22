@@ -1821,6 +1821,7 @@ ol ol {
 .list-unstyled {
   padding-left: 0;
   list-style: none;
+  text-align: center;
 }
 
 /* line 173, ../dev/sass/bootstrap/_type.scss */
@@ -8684,6 +8685,7 @@ img + p {
 /* line 92, ../dev/sass/_layout.scss */
 h5 {
   font-weight: bold;
+  text-align: center;
 }
 
 /* line 96, ../dev/sass/_layout.scss */
@@ -8718,7 +8720,7 @@ blockquote.contact {
 }
 
 /* line 117, ../dev/sass/_layout.scss */
-.no-padding, .product-intro {
+.no-padding, .portfolio-intro {
   padding-left: 0;
 }
 
@@ -8753,7 +8755,7 @@ input[type=submit] {
 
 /* line 147, ../dev/sass/_layout.scss */
 section.intro-text {
-  padding: 100px 0;
+  padding: 30px 0;
 }
 @media (max-width: 769px) {
   /* line 147, ../dev/sass/_layout.scss */
@@ -8825,7 +8827,7 @@ textarea.form-control {
 /* line 206, ../dev/sass/_layout.scss */
 #home-bottom-image {
   height: 650px;
-  background-image: url("../img/content-bg.jpg");
+  background-image: url("../assets/sea.jpg");
   background-color: black;
   background-repeat: no-repeat;
   background-position: center center;
@@ -9444,7 +9446,7 @@ body.error404 #main .error-404 {
 
 /* line 3, ../dev/sass/_overlays.scss */
 .color-overlay-placeholder {
-  background-size: 85%;
+  background-size: 95%;
   background-repeat: no-repeat;
   background-position: center center;
   overflow: hidden;
@@ -9491,7 +9493,7 @@ body.error404 #main .error-404 {
 
 /* line 59, ../dev/sass/_overlays.scss */
 #green {
-  background: url(../images/product-thumb-green.jpg) no-repeat center center;
+  background: url(../images/portfolio-thumb-green.jpg) no-repeat center center;
   background-size: 100%;
   overflow: hidden;
 }
@@ -9570,7 +9572,7 @@ body.error404 #main .error-404 {
 
 /* line 118, ../dev/sass/_overlays.scss */
 #yellow {
-  background: url(../images/product-thumb-yellow.jpg) no-repeat center center;
+  background: url(../images/portfolio-thumb-yellow.jpg) no-repeat center center;
   background-size: 100%;
   overflow: hidden;
 }
@@ -9640,7 +9642,7 @@ body.error404 #main .error-404 {
 
 /* line 169, ../dev/sass/_overlays.scss */
 #blue {
-  background: url(../images/product-thumb-blue.jpg) no-repeat center center;
+  background: url(../images/portfolio-thumb-blue.jpg) no-repeat center center;
   background-size: 100%;
   overflow: hidden;
 }
@@ -9710,7 +9712,7 @@ body.error404 #main .error-404 {
 
 /* line 220, ../dev/sass/_overlays.scss */
 #black {
-  background: url(../images/product-thumb-black.jpg) no-repeat center center;
+  background: url(../images/portfolio-thumb-black.jpg) no-repeat center center;
   background-size: 100%;
   overflow: hidden;
 }
@@ -9780,7 +9782,7 @@ body.error404 #main .error-404 {
 
 /* line 271, ../dev/sass/_overlays.scss */
 #pink {
-  background: url(../images/product-thumb-pink.jpg) no-repeat center center;
+  background: url(../images/portfolio-thumb-pink.jpg) no-repeat center center;
   background-size: 100%;
   overflow: hidden;
 }
@@ -9850,7 +9852,7 @@ body.error404 #main .error-404 {
 
 /* line 322, ../dev/sass/_overlays.scss */
 #grey {
-  background: url(../images/product-thumb-grey.jpg) no-repeat center center;
+  background: url(../images/portfolio-thumb-grey.jpg) no-repeat center center;
   background-size: 100%;
   overflow: hidden;
 }
@@ -9920,7 +9922,7 @@ body.error404 #main .error-404 {
 
 /* line 373, ../dev/sass/_overlays.scss */
 #bright-blue {
-  background: url(../images/product-thumb-bright-blue.jpg) no-repeat center center;
+  background: url(../images/portfolio-thumb-bright-blue.jpg) no-repeat center center;
   background-size: 100%;
   overflow: hidden;
 }
@@ -9990,7 +9992,7 @@ body.error404 #main .error-404 {
 
 /* line 424, ../dev/sass/_overlays.scss */
 #brown {
-  background: url(../images/product-thumb-brown.jpg) no-repeat center center;
+  background: url(../images/portfolio-thumb-brown.jpg) no-repeat center center;
   background-size: 100%;
   overflow: hidden;
 }
@@ -10060,7 +10062,7 @@ body.error404 #main .error-404 {
 
 /* line 475, ../dev/sass/_overlays.scss */
 #light-brown {
-  background: url(../images/product-thumb-light-brown.jpg) no-repeat center center;
+  background: url(../images/portfolio-thumb-light-brown.jpg) no-repeat center center;
   background-size: 100%;
   overflow: hidden;
 }
@@ -10235,94 +10237,94 @@ body.error404 #main .error-404 {
     overflow-y: scroll;
   }
 }
-/* line 1, ../dev/sass/_product-page.scss */
-.product-intro {
+/* line 1, ../dev/sass/_portfolio-page.scss */
+.portfolio-intro {
   position: relative;
 }
 @media (max-width: 769px) {
-  /* line 1, ../dev/sass/_product-page.scss */
-  .product-intro {
+  /* line 1, ../dev/sass/_portfolio-page.scss */
+  .portfolio-intro {
     height: auto;
   }
 }
 
-/* line 9, ../dev/sass/_product-page.scss */
-a.product-item {
+/* line 9, ../dev/sass/_portfolio-page.scss */
+a.portfolio-item {
   text-decoration: none !important;
 }
 
-/* line 13, ../dev/sass/_product-page.scss */
-.product-grid {
-  padding-bottom: 50px;
+/* line 13, ../dev/sass/_portfolio-page.scss */
+.portfolio-grid {
+  padding-bottom: 60px;
 }
-/* line 15, ../dev/sass/_product-page.scss */
-.product-grid .product-item {
-  margin-bottom: 30px;
+/* line 15, ../dev/sass/_portfolio-page.scss */
+.portfolio-grid .portfolio-item {
+  margin-bottom: 0px;
 }
 @media (max-width: 769px) {
-  /* line 15, ../dev/sass/_product-page.scss */
-  .product-grid .product-item {
+  /* line 15, ../dev/sass/_portfolio-page.scss */
+  .portfolio-grid .portfolio-item {
     margin-bottom: 0;
   }
 }
-/* line 21, ../dev/sass/_product-page.scss */
-.product-grid a {
+/* line 21, ../dev/sass/_portfolio-page.scss */
+.portfolio-grid a {
   text-decoration: none !important;
 }
 
-/* line 26, ../dev/sass/_product-page.scss */
-.product-button {
+/* line 26, ../dev/sass/_portfolio-page.scss */
+.portfolio-button {
   padding: 15px 20px;
   background-color: #000000;
   color: #ffffff;
   text-decoration: none;
   display: inline-block;
 }
-/* line 32, ../dev/sass/_product-page.scss */
-.product-button:hover {
+/* line 32, ../dev/sass/_portfolio-page.scss */
+.portfolio-button:hover {
   color: #ffffff;
   text-decoration: none;
 }
 
-/* line 37, ../dev/sass/_product-page.scss */
-.product-grid-page {
-  margin-top: 50px;
+/* line 37, ../dev/sass/_portfolio-page.scss */
+.portfolio-grid-page {
+  margin-top: 0px;
 }
 
 @media (max-width: 992px) {
-  /* line 40, ../dev/sass/_product-page.scss */
-  .product-button-container {
-    margin-bottom: 30px;
+  /* line 40, ../dev/sass/_portfolio-page.scss */
+  .portfolio-button-container {
+    margin-bottom: 20px;
   }
 }
 
-/* line 46, ../dev/sass/_product-page.scss */
-#product-grid-button {
+/* line 46, ../dev/sass/_portfolio-page.scss */
+#portfolio-grid-button {
   display: block;
 }
 @media (max-width: 769px) {
-  /* line 46, ../dev/sass/_product-page.scss */
-  #product-grid-button {
+  /* line 46, ../dev/sass/_portfolio-page.scss */
+  #portfolio-grid-button {
     padding-bottom: 50px;
   }
 }
-/* line 51, ../dev/sass/_product-page.scss */
-#product-grid-button a {
+/* line 51, ../dev/sass/_portfolio-page.scss */
+#portfolio-grid-button a {
   text-align: center;
-  padding: 15px 20px 15px 20px;
+  padding: 15px 20px;
   background-color: black;
   color: white;
   text-decoration: none;
 }
 @media (max-width: 769px) {
-  /* line 46, ../dev/sass/_product-page.scss */
-  #product-grid-button {
+  /* line 46, ../dev/sass/_portfolio-page.scss */
+  #portfolio-grid-button {
     margin-left: 15px;
   }
 }
 
-/* line 63, ../dev/sass/_product-page.scss */
-.product-intro-text {
+/* line 63, ../dev/sass/_portfolio-page.scss */
+.portfolio-intro-text {
   max-width: 730px;
   position: relative;
   display: table;
@@ -10330,26 +10332,26 @@ a.product-item {
   width: 50%;
 }
 @media (max-width: 769px) {
-  /* line 63, ../dev/sass/_product-page.scss */
-  .product-intro-text {
+  /* line 63, ../dev/sass/_portfolio-page.scss */
+  .portfolio-intro-text {
     width: 100%;
     height: auto;
   }
 }
 @media (max-width: 992px) {
-  /* line 63, ../dev/sass/_product-page.scss */
-  .product-intro-text {
+  /* line 63, ../dev/sass/_portfolio-page.scss */
+  .portfolio-intro-text {
     padding: 0px 40px 20px 40px;
   }
 }
 @media (max-width: 480px) {
-  /* line 63, ../dev/sass/_product-page.scss */
-  .product-intro-text {
+  /* line 63, ../dev/sass/_portfolio-page.scss */
+  .portfolio-intro-text {
     max-height: 1000px;
   }
 }
-/* line 80, ../dev/sass/_product-page.scss */
-.product-intro-text .text-container {
+/* line 80, ../dev/sass/_portfolio-page.scss */
+.portfolio-intro-text .text-container {
   width: 80%;
   color: #fff;
   position: absolute;
@@ -10363,8 +10365,8 @@ a.product-item {
   padding: 50px 0 100px 0;
 }
 @media (max-width: 769px) {
-  /* line 80, ../dev/sass/_product-page.scss */
-  .product-intro-text .text-container {
+  /* line 80, ../dev/sass/_portfolio-page.scss */
+  .portfolio-intro-text .text-container {
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     -o-transform: translate(0, 0);
@@ -10377,96 +10379,96 @@ a.product-item {
     padding: 30px 0;
   }
 }
-/* line 99, ../dev/sass/_product-page.scss */
-.product-intro-text .text-eq-container {
+/* line 99, ../dev/sass/_portfolio-page.scss */
+.portfolio-intro-text .text-eq-container {
   display: table-cell;
 }
-/* line 102, ../dev/sass/_product-page.scss */
-.product-intro-text hr {
+/* line 102, ../dev/sass/_portfolio-page.scss */
+.portfolio-intro-text hr {
   display: inline-block;
   width: 35px;
   border-top-color: white;
   border-top-width: 3px;
 }
 
-/* line 111, ../dev/sass/_product-page.scss */
-.product-intro-image {
+/* line 111, ../dev/sass/_portfolio-page.scss */
+.portfolio-intro-image {
   height: 100%;
   overflow: hidden;
 }
 
-/* line 116, ../dev/sass/_product-page.scss */
-#product-intro-image {
+/* line 116, ../dev/sass/_portfolio-page.scss */
+#portfolio-intro-image {
   min-height: 660px;
   background-size: cover;
   height: 100%;
   background-position: center right;
 }
 
-/* line 124, ../dev/sass/_product-page.scss */
-.product-images img {
+/* line 124, ../dev/sass/_portfolio-page.scss */
+.portfolio-images img {
   margin-bottom: 60px;
 }
 
-/* line 129, ../dev/sass/_product-page.scss */
-#product-block {
+/* line 129, ../dev/sass/_portfolio-page.scss */
+#portfolio-block {
   max-width: 1240px;
   padding-top: 50px;
   border-top: 2px solid #f8f8f8;
   margin: 0 auto;
 }
 @media (max-width: 1300px) {
-  /* line 129, ../dev/sass/_product-page.scss */
-  #product-block {
+  /* line 129, ../dev/sass/_portfolio-page.scss */
+  #portfolio-block {
     max-width: 940px;
   }
 }
 @media (max-width: 992px) {
-  /* line 129, ../dev/sass/_product-page.scss */
-  #product-block {
+  /* line 129, ../dev/sass/_portfolio-page.scss */
+  #portfolio-block {
     max-width: 720px;
   }
 }
 
-/* line 142, ../dev/sass/_product-page.scss */
-.product-row {
+/* line 142, ../dev/sass/_portfolio-page.scss */
+.portfolio-row {
   padding-bottom: 50px;
 }
 
 @media (max-width: 769px) {
-  /* line 146, ../dev/sass/_product-page.scss */
-  #product-specs {
-    padding: 10px 20px 30px 20px;
+  /* line 146, ../dev/sass/_portfolio-page.scss */
+  #portfolio-specs {
+    padding: 0px 20px 0px 20px;
   }
 }
 
-/* line 152, ../dev/sass/_product-page.scss */
+/* line 152, ../dev/sass/_portfolio-page.scss */
 .color-overlay-placeholder {
   margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {
-  /* line 158, ../dev/sass/_product-page.scss */
-  body.home .product-item {
+  /* line 158, ../dev/sass/_portfolio-page.scss */
+  body.home .portfolio-item {
     width: 50%;
   }
 }
 @media (max-width: 480px) {
-  /* line 158, ../dev/sass/_product-page.scss */
-  body.home .product-item {
+  /* line 158, ../dev/sass/_portfolio-page.scss */
+  body.home .portfolio-item {
     width: 100%;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 169, ../dev/sass/_product-page.scss */
-  body.page-id-55 .product-grid a {
+  /* line 169, ../dev/sass/_portfolio-page.scss */
+  body.page-id-55 .portfolio-grid a {
     width: 50%;
   }
 }
 @media (max-width: 480px) {
-  /* line 169, ../dev/sass/_product-page.scss */
-  body.page-id-55 .product-grid a {
+  /* line 169, ../dev/sass/_portfolio-page.scss */
+  body.page-id-55 .portfolio-grid a {
     width: 100%;
   }
 }

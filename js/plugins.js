@@ -23,24 +23,24 @@
         }
        
 
-        /////PRODUCT PAGE AFFIX CODE
+        /////portfolio PAGE AFFIX CODE
 
         //$('#sidebar').affix({
         //    //offset: {
-        //    //    top: $('.product-intro').outerHeight()
+        //    //    top: $('.portfolio-intro').outerHeight()
         //    //}
         //});
         //
         //$(window).scroll(function(){
-        //    if ($(this).scrollTop() > $('.product-images').outerHeight()+100)
+        //    if ($(this).scrollTop() > $('.portfolio-images').outerHeight()+100)
         //    {
-        //        $('.affix').css({'top':(($('.product-images').height() + 220))+'px','position':'absolute'});
+        //        $('.affix').css({'top':(($('.portfolio-images').height() + 220))+'px','position':'absolute'});
         //    }
-        //    if ($(this).scrollTop() < $('.product-images').height() + 100)
+        //    if ($(this).scrollTop() < $('.portfolio-images').height() + 100)
         //    {
         //        $('.affix').css({'top':'125px','position':'fixed'});
         //    }
-        //    if ($(this).scrollTop() < $('.product-intro').height() + 125) {
+        //    if ($(this).scrollTop() < $('.portfolio-intro').height() + 125) {
         //        $('.affix').css({'top': '0', 'position': 'relative'});
         //    }
         //});
