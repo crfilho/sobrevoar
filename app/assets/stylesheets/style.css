@@ -8624,6 +8624,11 @@ a {
   max-height: 100vh;
   max-width: 100%;
   vertical-align: top;
+  
+}
+
+.top-pad {
+  margin-top: 240px;
 }
 @media (max-width: 769px) {
   /* line 60, ../dev/sass/_layout.scss */
@@ -8660,7 +8665,7 @@ img + p {
 @media (max-width: 480px) {
   /* line 73, ../dev/sass/_layout.scss */
   .site-content {
-    padding-top: 51px;
+    margin-top:80px;
   }
 }
 
@@ -9027,22 +9032,12 @@ textarea.form-control {
     min-height: 300px;
   }
 }
-/* line 368, ../dev/sass/_layout.scss */
-.page-hero.history {
-  background-image: url("../images/img_about1.jpg");
-  position: relative;
-}
+
 /* line 371, ../dev/sass/_layout.scss */
 .page-hero.history #vcenter {
   color: black;
 }
-/* line 375, ../dev/sass/_layout.scss */
-.page-hero.contact {
-  background-image: url("../images/img_contact2.jpg");
-  background-size: contain !important;
-  position: relative;
-  margin: 0;
-}
+
 @media (max-width: 769px) {
   /* line 375, ../dev/sass/_layout.scss */
   .page-hero.contact {
@@ -9054,12 +9049,6 @@ textarea.form-control {
   .page-hero.contact {
     background-size: 200% !important;
   }
-}
-/* line 388, ../dev/sass/_layout.scss */
-.page-hero.showroom {
-  background-image: url("../images/showroom_hero.jpg");
-  position: relative;
-  letter-spacing: 1px;
 }
 
 @media (max-width: 992px) {

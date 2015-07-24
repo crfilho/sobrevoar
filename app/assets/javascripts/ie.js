@@ -1,4 +1,6 @@
 
+
+/*
 <!--[if lt IE 9]>
 <div class="legacy-browser">
     <div class="legacy-browser-text">
@@ -8,3 +10,4 @@
     </div>
 </div>
 <![endif]-->
+*/
