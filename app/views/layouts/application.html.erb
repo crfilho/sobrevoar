@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>sobreˆvoar | Imagens Aéreas</title>
+  
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <%= favicon_link_tag %>
@@ -21,20 +22,21 @@
 
 <!-- / Yoast WordPress SEO plugin. -->
 
-<script type='text/javascript' src='assets/jquery-1.11.1.js'></script>
-<script type='text/javascript' src='assets/jquery-migrate.min.js'></script>
-<script type='text/javascript' src='assets/jquery-1.10.2.min.js'></script>
-<script type='text/javascript' src='assets/modernizr-2.6.2.min.js'></script>
-<script type='text/javascript' src='assets/bootstrap.min.js'></script>
+<script type='text/javascript' src='/assets/jquery-1.11.1.js'></script>
+<script type='text/javascript' src='/assets/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='/assets/jquery-1.10.2.min.js'></script>
+<script type='text/javascript' src='/assets/modernizr-2.6.2.min.js'></script>
+<script type='text/javascript' src='/assets/bootstrap.min.js'></script>
 
 </head>
 <body class="home page page-id-4 page-template-default fade">
-
-<%= yield %>
+<div class="hfeed site">
+	<%= yield %>
+</div>
 
 </body>
 
-<script type='text/javascript' src='assets/analytics.js'></script>
-<script type='text/javascript' src='assets/plugins.js'></script>
-<script type='text/javascript' src='assets/main.js'></script>
+<script type='text/javascript' src='/assets/analytics.js'></script>
+<script type='text/javascript' src='/assets/plugins.js'></script>
+<script type='text/javascript' src='/assets/main.js'></script>
 </html>
