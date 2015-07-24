@@ -8666,9 +8666,12 @@ img + p {
   /* line 73, ../dev/sass/_layout.scss */
   .site-content {
     margin-top:80px;
+    
   }
 }
-
+.table {
+  overflow: auto;
+}
 /* line 79, ../dev/sass/_layout.scss */
 .content {
   padding-top: 100px;
@@ -10117,6 +10120,16 @@ body.error404 #main .error-404 {
 /* line 521, ../dev/sass/_overlays.scss */
 #light-brown:hover #light-brown-overlay {
   opacity: 1;
+}
+
+.scrollable {
+  -webkit-perspective: 1px;
+  -moz-perspective: 1px;
+  -o-perspective: 1px;
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 /* line 1, ../dev/sass/_parallax.scss */
